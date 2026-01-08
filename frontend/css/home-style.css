@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+/* Header */
+.header {
+    background: #007bff;
+    color: white;
+    padding: 24px 16px 32px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin-top: 4px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Container */
+.home-container {
+    max-width: 360px;
+    margin: -20px auto 0;
+    padding: 16px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 16px;
+    margin-bottom: 14px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.card.primary {
+    border-left: 4px solid #007bff;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card p {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Logout */
+.logout-btn {
+    width: 100%;
+    height: 46px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #dc3545;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logout-btn:active {
+    background: #b52a37;
+}
