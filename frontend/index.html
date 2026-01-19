@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +15,25 @@
 
     <p id="error" class="error"></p>
 </div>
+
+<div id="auth-id-box" style="display:none; margin-top:12px;">
+  <p>Auth Progress ID: <span id="auth-id" style="font-weight:bold;"></span></p>
+  <button onclick="copyAuthId()">Copy</button>
+</div>
+
+<!-- <div class="login-container">
+    <h3>Auth Progress ID</h3>
+
+   <div id="authProgressValue"
+         style="font-family: monospace; word-break: break-all; margin-bottom: 10px;">
+        —
+    </div>
+
+    <button onclick="copyAuthId()">Copy to Clipboard</button>
+
+    <p id="copyStatus"></p>
+</div> -->
+
 
 <script src="js/get-started-script.js"></script>
 </body>
